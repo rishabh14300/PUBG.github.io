@@ -1,0 +1,138 @@
+
+
+h1 {
+      color: black;
+      font-style: italic;
+      font-family: 'Righteous', cursive;
+      text-align: center;
+     }
+.span {
+      color: yellow;
+  }
+ 
+body {
+    background-image: url("Pubg.jpg");
+    background-size: cover;
+   
+}
+.Sign_up {
+    width: 500px;
+    box-shadow: 3px 3px 5px 6px rgb(44, 43, 43);
+    background: white;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+
+}
+#password {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+#number {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+.full_name {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+.email {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #999;
+    outline: none;
+}
+button {
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 40%;
+    border: 1px solid #999;
+    outline: none;
+    cursor: pointer;
+}
+.Submit {
+    background-color:  rgb(243, 138, 1);
+    color: black;
+}
+img {
+    width: 70px;
+}
+.Submit:hover{
+    background-color: rgb(95, 238, 95);
+    opacity: 1;
+}
+.Submit:active{
+    color: white;
+}
+.footer{
+    float: right;
+    background: white;
+}
+* {
+    box-sizing: border-box;
+    margin: auto;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 100px 30px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  h2{
+      text-align: center;
+      background-color: gray;
+      border-radius: 5px;
+      margin: 20px;
+      padding: 30px;
+      color: white;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-style: italic;
+      font-size: 2em;
+  }
